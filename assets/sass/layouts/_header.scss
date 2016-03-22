@@ -1,0 +1,89 @@
+#contenedor{
+    margin: 0% 10% !important;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $blanco;
+    border-bottom: solid 1px $gris-lineas;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+     h1 {
+        height: inherit;
+        line-height: inherit;
+        padding: 0 0 0 1.5em;
+        white-space: nowrap;
+        color: $negro;
+        font-family: "Raleway", Helvetica, sans-serif;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        line-height: 1.39;
+        margin: 0 0 1em 0;
+        text-transform: uppercase;
+        a {
+            font-size: 0.35em;
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+    
+}
+.links {
+        flex: 1;
+        border-left: solid 1px $gris-lineas;
+        height: inherit;
+        line-height: inherit;
+        margin-left: 1.5em;
+        overflow: hidden;
+        padding-left: 1.5em;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        li{
+            border-left: solid 1px $gris-lineas;
+            line-height: 1;
+            margin-left: 1em;
+            padding-left: 1em;
+            display: inline-block;
+            padding-left: 0;
+            display: inline-block;
+            padding-left: 0.9em;
+            
+            &:first-child {
+                border-left: 0;
+                margin-left: 0;
+                padding-left: 0;
+            }
+            a {
+                border-bottom: 0;
+                font-family: "Raleway", Helvetica, sans-serif;
+                font-size: 0.7em;
+                font-weight: 400;
+                letter-spacing: 0.25em;
+                text-transform: uppercase;
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+      }
+    }
+    .main{ 
+    ul{
+        padding-left: 0px;
+        list-style-type: none;
+        margin: 0px 23px;
+        li {
+            border-left: solid 1px rgba(160, 160, 160, 0.3);
+            a{
+                padding-left: 25px;
+                color: #aaaaaa;
+            }
+        }
+    }
+}
